@@ -1,16 +1,36 @@
 {
-  "name": "atividade01---objetoexames",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "",
-  "main": "index.js",
+  "name": "task-manager-angular",
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
+  "packageManager": "npm@11.8.0",
+  "dependencies": {
+    "@angular/common": "^21.2.0",
+    "@angular/compiler": "^21.2.0",
+    "@angular/core": "^21.2.0",
+    "@angular/forms": "^21.2.0",
+    "@angular/platform-browser": "^21.2.0",
+    "@angular/router": "^21.2.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
   "devDependencies": {
-    "typescript": "^6.0.2"
+    "@angular/build": "^21.2.7",
+    "@angular/cli": "^21.2.7",
+    "@angular/compiler-cli": "^21.2.0",
+    "@tailwindcss/postcss": "^4.2.2",
+    "autoprefixer": "^10.5.0",
+    "jsdom": "^28.0.0",
+    "postcss": "^8.5.10",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4.2.2",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8"
   }
 }
