@@ -12,9 +12,10 @@ export interface Task {
 export class TaskService {
   // REQUISITO: Signals para armazenar estado
   private tasksSignal = signal<Task[]>([
-    { id: 1, title: 'Aprender Angular Signals', completed: false },
-    { id: 2, title: 'Configurar Tailwind v4', completed: true },
-    { id: 3, title: 'Beber água', completed: false }
+    { id: 1, title: 'Usar tailwind', completed: true },
+    { id: 2, title: 'Deve-se usar signals para armazenar estados das variáveis', completed: false },
+    { id: 3, title: 'Deve-se criar, pelo menos, um serviço, que represente e exporte a base de dados inicial da aplicação angular', completed: false },
+    { id: 4, title: 'Deve-se usar injeção de dependência nos componentes que precisem consumir desse serviço', completed: false }
   ]);
 
   tasks = this.tasksSignal.asReadonly();

@@ -7,8 +7,8 @@ import { TaskService } from '../../services/task';
   imports: [], 
   template: `
     <div class="max-w-md mx-auto bg-white shadow-md rounded-none border border-gray-200">
-      <div class="bg-gray-50 p-6 border-b border-gray-200">
-        <h2 class="text-slate-800 text-sm font-bold text-gray-500 uppercase tracking-widest">Minhas Tarefas</h2>
+      <div class="bg-gray-50 p-4 border-b border-gray-200">
+        <h2 class="text-slate-800 text-x1 font-bold text-gray-500 uppercase tracking-widest">Minhas Tarefas</h2>
       </div>
       
       <ul class="divide-y divide-gray-100 p-4">

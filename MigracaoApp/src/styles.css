@@ -1,11 +1,8 @@
 @import "tailwindcss";
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
-@import "tailwindcss/theme";
-
 
 @layer base {
   body {
-    background-color: #f3f4f6 !important; 
+    @apply antialiased text-gray-900;
+    background-color: #f3f4f6; 
   }
 }

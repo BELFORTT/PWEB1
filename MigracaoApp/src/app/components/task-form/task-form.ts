@@ -9,7 +9,7 @@ import { TaskService } from '../../services/task';
   imports: [CommonModule, FormsModule],
   template: `
     <div class="max-w-md mx-auto mt-4 p-4 bg-white shadow-md border border-gray-200">
-      <h3 class="text-xs text-slate-800 font-bold text-gray-400 uppercase tracking-widest mb-3">Nova Tarefa</h3>
+      <h3 class="text-x1 text-slate-800 font-bold text-gray-400 uppercase tracking-widest mb-3">Nova Tarefa</h3>
       <div class="flex flex-row gap-2">
         <input 
           type="text" 
