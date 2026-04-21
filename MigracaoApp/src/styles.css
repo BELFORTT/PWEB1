@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+@import "tailwindcss/theme";
+
+
+@layer base {
+  body {
+    background-color: #f3f4f6 !important; 
+  }
+}
